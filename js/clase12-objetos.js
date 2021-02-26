@@ -46,5 +46,9 @@ console.log(fran.contacto.movil);
 fran.saludar();
 fran.decirMiNombre();
 
-// Para conocer todas las claves del objeto
+// Para conocer todas las claves del objeto utilizo 'keys' y 'values' me muestras los valores de éstas
 console.log(Object.keys(fran));
+console.log(Object.values(fran));
+
+// Para saber si dentro del objeto existe una propiedad determinada utilizo el método 'hasOwnProperty'
+console.log(fran.hasOwnProperty('nombre')); // true
